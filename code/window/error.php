@@ -6,7 +6,7 @@ $window = new Window("Title", new Size(200, 40));
 
 $window->show();
 
-$window->error("Title", "Message");
+$window->error("This is the \$title parameter", "The \$msg parameter goes here");
 
 UI\run();
 ?>
